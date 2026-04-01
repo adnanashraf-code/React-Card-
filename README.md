@@ -1,16 +1,129 @@
-# React + Vite
+# 💼 Job Listing UI (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Job Listing UI built using React. This project showcases dynamic rendering of job cards with clean UI, reusable components, and scalable data structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🔹 Dynamic Job Cards using reusable components
+* 🔹 Clean and modern UI design
+* 🔹 Responsive layout using Flexbox/Grid
+* 🔹 Hover animations for better UX
+* 🔹 Real-world job data (FAANG + Big Tech inspired)
+* 🔹 Bookmark button UI with icon support
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React (Vite)**
+* **JavaScript (ES6+)**
+* **CSS3**
+* **Lucide React Icons**
+
+---
+
+## 📁 Project Structure
+
+```
+React Project/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── card.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── public/
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/job-listing-ui.git
+```
+
+2. Navigate to project folder
+
+```
+cd job-listing-ui
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+---
+
+## 🧠 How It Works
+
+* Job data is stored as an array of objects
+* Each job is passed as props to the `Card` component
+* The component dynamically renders:
+
+  * Company logo
+  * Role
+  * Tags (Full time, Senior level, etc.)
+  * Salary
+  * Location
+
+---
+
+## 💡 Key Concepts Used
+
+* Props in React
+* Component Reusability
+* Array Mapping
+* Conditional Rendering (optional)
+* CSS Flexbox / Grid
+* UI/UX enhancements with hover effects
+
+---
+
+## 🎯 Future Improvements
+
+* 🔍 Search and filter jobs
+* ❤️ Save/bookmark functionality (state-based)
+* 🌐 API integration (real job data)
+* 📱 Fully responsive mobile UI
+* 🌙 Dark mode
+
+---
+
+## 📸 Preview
+
+(Add your project screenshot here)
+
+---
+
+## 👨‍💻 Author
+
+**Adnan Ashraf**
+Aspiring Full Stack Developer 🚀
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
