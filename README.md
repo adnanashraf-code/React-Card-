@@ -1,4 +1,4 @@
-# 💼 Job Listing UI (React)
+# 💼 Job Listing UI CARD (React)
 
 A modern and responsive Job Listing UI built using React. This project showcases dynamic rendering of job cards with clean UI, reusable components, and scalable data structure.
 
